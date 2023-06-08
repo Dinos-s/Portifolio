@@ -1,4 +1,4 @@
-/* mobile */
+/* mobile first */
 * {
     box-sizing: border-box;
     font-family: 'Open Sans', sans-serif;
@@ -122,6 +122,69 @@ body {
     background-image: url(./imgs/github.svg);
 }
 
+.moreInfo {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    border: 1px solid #fff;
+    border-radius: 1rem;
+    margin: 1rem 0;
+    transition: .25s;
+}
+
+.moreInfo .trigger {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    font-size: 1.5rem;
+    font-weight: 700;
+    padding: 1rem 2rem;
+    background-color: transparent;
+    color: #fff;
+    border: none;
+}
+
+.moreInfo.open,
+.moreInfo:hover{
+    background-color: #55569e;
+    border-color: #55569e;
+}
+
+.moreInfo .trigger:hover {
+    cursor: pointer;
+}
+
+.moreInfo .trigger::after {
+    content: '';
+    display: inline-block;
+    width: 1.5rem;
+    height: 1.5rem;
+    background-repeat: no-repeat;
+    background-size: contain;
+    background-image: url(./imgs/arrow-top.svg);
+    transform: .25s;
+}
+
+.moreInfo.open .trigger::after {
+    transform: rotate(180deg);
+}
+
+.moreInfo .content {
+    overflow: hidden;
+    height: 0;
+    opacity: 0;
+    transition: opacity .25s ease-in-out;
+}
+
+.moreInfo.open .content {
+    display: block;
+    padding: 0 1rem 1rem 2rem;
+    height: auto;
+    opacity: 1;
+}
+
+/* responsividade de tela desktop/notebook */
 @media (min-width: 768px) {
     .main {
         max-width: 1024px;
