@@ -1,0 +1,155 @@
+/* mobile */
+* {
+    box-sizing: border-box;
+    font-family: 'Open Sans', sans-serif;
+}
+
+@font-face {
+    font-family: 'Neue Machina';
+    src: url('./fonts/NeueMachina-Regular.otf');
+}
+
+body {
+    background-color: #000;
+    color: #fff;
+}
+
+.main {
+    padding: 1rem;
+    margin: 1rem;
+    border: #fff solid 1px;
+    border-radius: 1rem;
+}
+
+.main::after,
+.main::before {
+    content: '';
+    background-image: url(./imgs/background.svg);
+    background-repeat: no-repeat;
+    background-size: contain;
+    display: inline-block;
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 140vw;
+    height: 100vh;
+    z-index: -1;
+}
+
+.main::after {
+    content: '';
+    top: auto;
+    left: auto;
+    bottom: 0;
+    right: 0;
+    transform: rotate(180deg);
+}
+
+.header {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    position: relative;
+}
+
+.header::after{
+    content: '';
+    display: inline-block;
+    position: absolute;
+    top: 1rem;
+    right: 1rem;
+    height: 2rem;
+    width: 2rem;
+    background-image: url(./imgs/header.svg);
+    background-repeat: no-repeat;
+    background-size: contain;
+}
+
+.header .photo {
+    width: 200px;
+    height: 200px;
+    border-radius: 50%;
+}
+
+.header .title {
+    font-family: 'Neue Machina';
+    text-align: center;
+}
+
+.informations {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    width: 100%;
+}
+
+.informations p {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    margin: .5rem;
+    font-size: 1.125rem;
+}
+
+.informations p::before {
+    content: '';
+    display: inline-block;
+    width: 1rem;
+    height: 1rem;
+    background-image: url(./imgs/github.svg);
+    background-repeat: no-repeat;
+    background-size: contain;
+    margin-right: .5rem;
+}
+
+.informations .job::before {
+    background-image: url(./imgs/job.svg);
+}
+
+.informations .local::before {
+    background-image: url(./imgs/location.svg);
+}
+
+.informations .phone::before {
+    background-image: url(./imgs/phone.svg);
+}
+
+.informations .email::before {
+    background-image: url(./imgs/email.svg);
+}
+
+.informations .github::before {
+    background-image: url(./imgs/github.svg);
+}
+
+@media (min-width: 768px) {
+    .main {
+        max-width: 1024px;
+        margin: 1rem auto;
+    }
+
+    .main::after,
+    .main::before {
+        width: 70vw;
+    }
+
+    .header {
+        display: grid;
+        grid-template-areas: "photo title" 'photo information';
+    }
+
+    .header .photo {
+        grid-area: photo;
+        margin: 0 auto;
+    }
+
+    .header .title {
+        grid-area: title;
+        text-align: start;
+        max-width: 210px;
+    }
+
+    .header .informations {
+        grid-area: information;
+    }
+}
