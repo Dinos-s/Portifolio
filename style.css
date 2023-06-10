@@ -214,6 +214,53 @@ body {
     margin: .5rem;
 }
 
+.portifolio{
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    width: 100%;
+    margin: 0;
+    padding: 0;
+    list-style: none;
+}
+
+.portifolio li {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    margin: 1rem 0;
+}
+
+.portifolio li .title{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    font-size: 1.25rem;
+    font-weight: 700;
+    margin-bottom: .5rem;
+}
+
+.portifolio li a {
+    color: #fff;
+    text-decoration: none;
+}
+
+.portifolio li a:hover {
+    color: #fff;
+    text-decoration: underline;
+}
+
+.portifolio li .title.github::before {
+    content: '';
+    display: inline-block;
+    width: 1rem;
+    height: 1rem;
+    background-image: url(./imgs/github.svg);
+    background-repeat: no-repeat;
+    background-size: contain;
+    margin: .5rem;
+}
+
 /* responsividade de tela desktop/notebook */
 @media (min-width: 768px) {
     .main {
