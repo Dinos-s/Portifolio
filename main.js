@@ -21,8 +21,20 @@ function updateInfoProfile(profile) {
     email.href = `mailto: ${profile.email}`
 }
 
+function updateSoftSkills(profile) {
+    const softSkills = document.getElementById('profile.skills.softSkills');
+    softSkills.innerHTML = profile.skills.softSkills.map(skill => `<li>${skill}</li>`).join('')
+}
+
+function updateHardSkills(profile) {
+    const hardSkills = document.getElementById('profile.skills.hardSkills')
+    hardSkills.innerHTML =  profile.skills.hardSkills.map(skill => `<li><img src="${skill.logo}" alt="${skill.name}" title="${skill.name}"></li>`).join('')
+}
+
 (async () => {
     const profile = await Profile()
     updateInfoProfile(profile)
+    updateSoftSkills(profile)
+    updateHardSkills(profile)
     console.log(profile);
 })()
