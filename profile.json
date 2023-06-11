@@ -1,0 +1,71 @@
+{
+    "name": "Gabriel de Matos Ramos",
+    "photo": "https://avatars.githubusercontent.com/u/56043956?v=4",
+    "job": "Junior Developer",
+    "location": "Recife - PE",
+    "phone": "(81) 98118-7248",
+    "email": "mramos.gabriel@gmail.com",
+    "skills": {
+      "hardSkills": [
+        {
+          "name": "HTML",
+          "logo": "https://raw.githubusercontent.com/Dinos-s/Portifolio/master/imgs/tools/html.png"
+        },
+        {
+            "name": "CSS",
+            "logo": "https://raw.githubusercontent.com/Dinos-s/Portifolio/master/imgs/tools/css.png"
+          },
+        {
+          "name": "Java Script",
+          "logo": "https://raw.githubusercontent.com/Dinos-s/Portifolio/master/imgs/tools/js.png"
+        },
+        {
+          "name": "Nodejs",
+          "logo": "https://raw.githubusercontent.com/Dinos-s/Portifolio/master/imgs/tools/nodejs.png"
+        },
+        {
+          "name": "Vue",
+          "logo": "https://raw.githubusercontent.com/Dinos-s/Portifolio/master/imgs/tools/vue-js.png"
+        },
+        {
+          "name": "Mongodb",
+          "logo": "https://raw.githubusercontent.com/Dinos-s/Portifolio/master/imgs/tools/mongodb.png"
+        },
+        {
+          "name": "MySQL",
+          "logo": "https://raw.githubusercontent.com/Dinos-s/Portifolio/master/imgs/tools/mysql.png"
+        }
+      ],
+      "softSkills": [
+        "Empatia",
+        "Trabalho em equipe",
+        "Flexibilidade",
+        "Organização",
+        "Proativo",
+        "Fácil Comunicação"
+      ]
+    },
+    "languages": [
+      "Português BR",
+      "Inglês (iniciante)"
+    ],
+    "portfolio": [
+      {
+        "name": "Pokedex HTML criado ministrado pelo Dev em Dobro",
+        "url": "https://github.com/Dinos-s/Pokedex-html",
+        "github": true
+      },
+      {
+        "name": "Curso Ministrado na DIO para a criação de uma página de portifolio",
+        "url": "https://github.com/Dinos-s/Portifolio",
+        "github": true
+      }
+    ],
+    "professionalExperience": [
+      {
+        "name": "Jovem Aprendiz",
+        "period": "2022 - até o momento",
+        "description": ""
+      }
+    ]
+  }

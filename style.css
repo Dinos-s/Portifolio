@@ -313,6 +313,7 @@ a:hover{
 
 .skills .tools ul li img {
     max-width: 50px;
+    max-height: 50px;
     margin: 0 .5rem;
 }
 
@@ -330,6 +331,7 @@ a:hover{
     margin-left: 2rem;
     padding: .5rem;
 }
+
 /* responsividade de tela desktop/notebook */
 @media (min-width: 768px) {
     .main {
