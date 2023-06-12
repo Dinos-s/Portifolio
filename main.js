@@ -52,7 +52,7 @@ function updateExperience(profile) {
         return `<li>
             <h3 class="title">${experience.name}</h3>
             <p class="period">${experience.period}</p>
-            <p>${experience.descprition}</p>
+            <p>${experience.description}</p>
         </li>`
     }).join('')
 }
