@@ -65,5 +65,4 @@ function updateExperience(profile) {
     updateLanguages(profile)
     updateProjetos(profile)
     updateExperience(profile)
-    console.log(profile);
 })()

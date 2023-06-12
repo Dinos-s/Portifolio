@@ -19,7 +19,7 @@ a {
     text-decoration: none;
 }
 
-a:hover{
+a:hover {
     text-decoration: underline;
 }
 
@@ -61,7 +61,7 @@ a:hover{
     position: relative;
 }
 
-.header::after{
+.header::after {
     content: '';
     display: inline-block;
     position: absolute;
@@ -142,7 +142,7 @@ a:hover{
 }
 
 .moreInfo.open,
-.moreInfo:hover{
+.moreInfo:hover {
     background-color: #55569e;
     border-color: #55569e;
 }
@@ -200,7 +200,7 @@ a:hover{
     opacity: 1;
 }
 
-.lenguages{
+.lenguages {
     display: flex;
     flex-direction: row;
     align-items: center;
@@ -218,7 +218,7 @@ a:hover{
     font-weight: 700;
 }
 
-.lenguages li::before{
+.lenguages li::before {
     content: '';
     display: inline-block;
     width: 1rem;
@@ -229,7 +229,7 @@ a:hover{
     margin: .5rem;
 }
 
-.portifolio{
+.portifolio {
     display: flex;
     flex-direction: column;
     justify-content: flex-start;
@@ -246,7 +246,7 @@ a:hover{
     margin: 1rem 0;
 }
 
-.portifolio li .title{
+.portifolio li .title {
     display: flex;
     flex-direction: row;
     align-items: center;
