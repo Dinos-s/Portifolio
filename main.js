@@ -46,6 +46,17 @@ function updateProjetos(profile) {
     }).join('')
 }
 
+function updateExperience(profile) {
+    const experience = document.getElementById('profile.professionalExperience')
+    experience.innerHTML = profile.professionalExperience.map((experience) => {
+        return `<li>
+            <h3 class="title">${experience.name}</h3>
+            <p class="period">${experience.period}</p>
+            <p>${experience.descprition}</p>
+        </li>`
+    }).join('')
+}
+
 (async () => {
     const profile = await Profile()
     updateInfoProfile(profile)
@@ -53,5 +64,6 @@ function updateProjetos(profile) {
     updateHardSkills(profile)
     updateLanguages(profile)
     updateProjetos(profile)
+    updateExperience(profile)
     console.log(profile);
 })()
