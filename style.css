@@ -266,6 +266,10 @@ a:hover {
     margin: .5rem;
 }
 
+.portifolio li .hide{
+    visibility: hidden;
+}
+
 .experience {
     display: flex;
     flex-direction: column;

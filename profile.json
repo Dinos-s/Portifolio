@@ -5,7 +5,7 @@
     "location": "Recife - PE",
     "phone": "(81) 98118-7248",
     "email": "mramos.gabriel@gmail.com",
-    "aboutMe": "Estou a procura do meu primeiro emprego, no momento estou cursando Ciências da Computação (CCO). Busco a vaga de desenvolvedor full-stack, afim de desenvolver ainda mais as minhas abilidades, adquiridas ao longo de 4 anos na graduação e, me sinto pronto para atuar no mercado e trabalhar, numa área que me indentifico muito.<br> Um apaixonado por tecnologia, que sempre busca compreender as novas tecnologias existentes, facinado por codificação, sempre buscando algo novo para aprender <br>'Um programador, é um eterno estudante'",
+    "aboutMe": "Estou a procura do meu primeiro emprego, no momento estou cursando Ciências da Computação (CCO). Busco a vaga de desenvolvedor full-stack, afim de desenvolver ainda mais as minhas abilidades, adquiridas ao longo de 4 anos na graduação e, me sinto pronto para atuar no mercado e trabalhar, numa área que me indentifico muito.<br> Um apaixonado por tecnologia, que sempre busca compreender as novas tecnologias existentes, facinado por codificação, sempre buscando algo novo para aprender; <br>'Um programador, é um eterno estudante'",
     "skills": {
       "hardSkills": [
         {
@@ -54,12 +54,23 @@
       {
         "name": "Pokedex HTML criado ministrado pelo Dev em Dobro",
         "url": "https://github.com/Dinos-s/Pokedex-html",
-        "github": true
+        "github": true,
+        "pages": "https://dinos-s.github.io/Pokedex-html/",
+        "gitPages": true
       },
       {
         "name": "Curso Ministrado na DIO para a criação de uma página de portifolio",
         "url": "https://github.com/Dinos-s/Portifolio",
-        "github": true
+        "github": true,
+        "pages": "https://dinos-s.github.io/Portifolio/Portifolio.html",
+        "gitPages": true
+      },
+      {
+        "name": "Maker-Burguer em Vue.js",
+        "url": "https://github.com/Dinos-s/Maker-Buguer_vue",
+        "github": true,
+        "pages": "",
+        "gitPages": false
       }
     ],
     "professionalExperience": [

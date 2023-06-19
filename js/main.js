@@ -42,6 +42,7 @@ function updateProjetos(profile) {
        return `<li>
             <h3 ${portifolio.github ? 'class="title github"' : ''}>${portifolio.name}</h3>
             <a href="${portifolio.url}" target="_blank">${portifolio.url}</a>
+            <a ${portifolio.gitPages ? '' : 'class="hide"'} href="${portifolio.pages}" target"_blank">${portifolio.pages}</a>
         </li>`
     }).join('')
 }
@@ -59,7 +60,7 @@ function updateExperience(profile) {
 
 function aboutMe(profile) {
     const aboutMe = document.getElementById('profile.aboutMe')
-    aboutMe.innerHTML = profile.aboutMe.split('<br>')
+    aboutMe.innerHTML = profile.aboutMe.split('<br>').join('<br><br>')
 }
 
 (async () => {
