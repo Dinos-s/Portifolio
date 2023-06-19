@@ -57,6 +57,11 @@ function updateExperience(profile) {
     }).join('')
 }
 
+function aboutMe(profile) {
+    const aboutMe = document.getElementById('profile.aboutMe')
+    aboutMe.innerHTML = profile.aboutMe.join('<br>')
+}
+
 (async () => {
     const profile = await Profile()
     updateInfoProfile(profile)
@@ -65,4 +70,5 @@ function updateExperience(profile) {
     updateLanguages(profile)
     updateProjetos(profile)
     updateExperience(profile)
+    aboutMe(profile)
 })()
