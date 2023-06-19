@@ -3,6 +3,10 @@ function updateInfoProfile(profile) {
     photo.src = profile.photo
     photo.alt = profile.name
 
+    const github = document.getElementById('profile.github')
+    github.innerHTML = profile.github
+    github.href = `${profile.github}`
+
     const name = document.getElementById('profile.name');
     name.innerHTML = profile.name
 
