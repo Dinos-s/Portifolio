@@ -41,8 +41,12 @@ function updateProjetos(profile) {
     projetos.innerHTML = profile.portifolio.map((portifolio) => {
        return `<li>
             <h3 ${portifolio.github ? 'class="title github"' : ''}>${portifolio.name}</h3>
-            <a href="${portifolio.url}" target="_blank">${portifolio.url}</a>
-            <a ${portifolio.gitPages ? '' : 'class="hide"'} href="${portifolio.pages}" target"_blank">${portifolio.pages}</a>
+
+            <p>
+                <a href="${portifolio.url}" target="_blank">🔗Repositório</a>
+
+                <a ${portifolio.gitPages ? '' : 'class="hide"'} href="${portifolio.pages}" target="_blank">👨‍💻Deploy</a>
+            </p>
         </li>`
     }).join('')
 }

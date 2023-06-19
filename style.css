@@ -17,6 +17,7 @@ body {
 a {
     color: #fff;
     text-decoration: none;
+    margin: 5px;
 }
 
 a:hover {
@@ -270,6 +271,11 @@ a:hover {
     visibility: hidden;
 }
 
+.portifolio li p{
+    display: inline;
+    margin: 0 4px;
+}
+
 .experience {
     display: flex;
     flex-direction: column;
@@ -361,7 +367,6 @@ a:hover {
     .header .title {
         grid-area: title;
         text-align: start;
-        max-width: 210px;
     }
 
     .header .informations {
