@@ -59,7 +59,7 @@ function updateExperience(profile) {
 
 function aboutMe(profile) {
     const aboutMe = document.getElementById('profile.aboutMe')
-    aboutMe.innerHTML = profile.aboutMe.join('')
+    aboutMe.innerHTML = profile.aboutMe.split('<br>')
 }
 
 (async () => {
