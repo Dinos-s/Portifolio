@@ -129,7 +129,7 @@ a:hover {
 }
 
 .informations .github::before {
-    background-image: url(./imgs/github.svg);
+    background-image: url(./imgs/github2.svg);
 }
 
 .moreInfo {
@@ -144,8 +144,8 @@ a:hover {
 
 .moreInfo.open,
 .moreInfo:hover {
-    background-color: #55569e;
-    border-color: #55569e;
+    background-color: #1716707a;
+    border-color: #1403fc;
 }
 
 .moreInfo .trigger {
