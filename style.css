@@ -305,6 +305,35 @@ a:hover {
     margin: .5rem;
 }
 
+.school {
+    display: flex;
+    flex-direction: column;
+    margin: 0;
+    padding: 0;
+    list-style: none;
+}
+
+.school li {
+    margin-bottom: .1rem;
+}
+
+.school li .period {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+
+.school li .period::before {
+    content: '';
+    display: inline-block;
+    width: 1rem;
+    height: 1rem;
+    background-image: url(./imgs/calendar.svg);
+    background-repeat: no-repeat;
+    background-size: contain;
+    margin: .5rem;
+}
+
 .skills {
     display: flex;
     flex-direction: column;
