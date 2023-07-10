@@ -24,6 +24,23 @@ a:hover {
     text-decoration: underline;
 }
 
+::-webkit-scrollbar {
+    width: 5px;
+}
+
+::-webkit-scrollbar-track {
+    background: #1a1919;
+}
+
+::-webkit-scrollbar-thumb {
+    background: #672b8a;
+    border-radius: 12px;
+}
+
+::-webkit-scrollbar-thumb:hover {
+    background: #d28dfab9;
+}
+
 .main {
     padding: 1rem;
     margin: 1rem;
@@ -267,11 +284,11 @@ a:hover {
     margin: .5rem;
 }
 
-.projetos li .hide{
+.projetos li .hide {
     visibility: hidden;
 }
 
-.projetos li p{
+.projetos li p {
     display: inline;
     margin: 0 4px;
 }
