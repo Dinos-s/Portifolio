@@ -230,7 +230,7 @@ a:hover {
     margin: .5rem;
 }
 
-.portifolio {
+.projetos {
     display: flex;
     flex-direction: column;
     justify-content: flex-start;
@@ -240,14 +240,14 @@ a:hover {
     list-style: none;
 }
 
-.portifolio li {
+.projetos li {
     display: flex;
     flex-direction: column;
     justify-content: flex-start;
     margin: 1rem 0;
 }
 
-.portifolio li .title {
+.projetos li .title {
     display: flex;
     flex-direction: row;
     align-items: center;
@@ -256,7 +256,7 @@ a:hover {
     margin-bottom: .5rem;
 }
 
-.portifolio li .title.github::before {
+.projetos li .title.github::before {
     content: '';
     display: inline-block;
     width: 1rem;
@@ -267,11 +267,11 @@ a:hover {
     margin: .5rem;
 }
 
-.portifolio li .hide{
+.projetos li .hide{
     visibility: hidden;
 }
 
-.portifolio li p{
+.projetos li p{
     display: inline;
     margin: 0 4px;
 }

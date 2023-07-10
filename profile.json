@@ -51,6 +51,14 @@
     "Português BR",
     "Inglês (iniciante)"
   ],
+  "university": [
+    {
+      "curso": "Ciência da Computação (CCO)",
+      "university": "Universidade Federal dos Guaraapes (UNIFG)",
+      "period": "2019 - até o momento",
+      "tipo": "Bacharelado"
+    }
+  ],
   "portifolio": [
     {
       "name": "Pokedex HTML criado ministrado pelo Dev em Dobro",
