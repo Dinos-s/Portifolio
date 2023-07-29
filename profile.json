@@ -55,8 +55,14 @@
     {
       "curso": "Ciência da Computação (CCO)",
       "university": "Universidade Federal dos Guaraapes (UNIFG)",
-      "period": "2019 - até o momento",
+      "period": "02/2019 - 07/2023",
       "tipo": "Bacharelado"
+    }, 
+    {
+      "curso": "Desenvolvimento Full-Stack",
+      "university": "Descomplica EAD",
+      "period": "07/2023 - até o momento",
+      "tipo": "Pós-Graduação"
     }
   ],
   "portifolio": [
