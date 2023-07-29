@@ -75,8 +75,8 @@ function Formacao(profile) {
     const formacao = document.getElementById('profile.university')
     formacao.innerHTML = profile.university.map((university) => {
         return `<li>
-            <h3 class="title">🏫${university.curso}</h3>
-            <h4>${university.university}</h4>
+            <h2 class="title">📖${university.curso}</h2>
+            <h3>🏫${university.university}</h3>
             <p class="period">${university.period}</p>
             <p>${university.tipo}</p>
         </li>`
